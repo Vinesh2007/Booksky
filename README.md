@@ -20,13 +20,3 @@
 <h2>Screenshot</h2>
 <!-- Replace the src with your GitHub raw image link or keep local if inside assets/ -->
 <img src="assets/screenshot.png" alt="Booksky Screenshot" width="600">
-
-<h2>✨ Learning Goals</h2>
-<p>
-This project is a great starting point for beginners to practice:
-</p>
-<ul>
-  <li>DOM manipulation</li>
-  <li>Event handling</li>
-  <li>Basic CRUD operations in JavaScript</li>
-</ul>
