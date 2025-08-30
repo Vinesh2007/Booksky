@@ -1,0 +1,173 @@
+*{
+   font-family: "Roboto", sans-serif;
+   margin:0;
+   padding:0;
+}
+
+.navbar
+{  
+    background-color: palevioletred;    
+    padding:10px;
+}
+
+.container
+{
+    padding: 10px;
+    display: inline;
+}
+
+.book1
+{
+    margin: 30px;
+    background-color: black;
+    padding:10px;
+    width: 25%;
+    border-radius: 10px;
+    border: none;
+    vertical-align: top;
+    display: inline-block;
+}
+
+.book1 p
+{
+   margin-top: 20px;
+   color:white;
+}
+
+.book1 h2
+{
+    color: palevioletred;
+}
+
+.book1 h5
+{
+    color: palevioletred;
+}
+
+#btn
+{
+    margin-top: 20px;
+    background-color: red;
+    border-radius: 10px;
+    cursor: pointer;
+    size: 200%;
+    width: 100px;
+    height: 30px;
+    font-size: 20px;
+    border: none;
+}
+
+#addButton
+{
+    position: absolute;
+    background-color: palevioletred;
+    color: black;
+    border: none;
+    font-size: 40px;
+    width: 100px;
+    height: 100px;
+    border-radius:100px;
+    bottom: 30px;
+    right: 30px;
+    cursor: pointer;
+}
+
+.popup-overlay
+{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.8;
+    z-index: 2;
+    position: absolute;
+    top: 0;
+    display: none;
+}
+
+.popup-box
+{
+    z-index: 5;
+    background-color: palevioletred;
+    color: black;
+    position: fixed;
+    padding: 20px;
+    padding-top: 10px;
+    margin: auto;
+    left: 30%;
+    top: 30%;
+    border-radius: 10px;
+    border: solid 2px black;
+    font-size: 20px;
+    width: 30%;
+    display: none;
+}
+
+input
+{
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    margin: 10px;
+    border-bottom: solid black 2px;
+    width: 100%;
+}
+
+input::placeholder
+{
+    color: black;
+}
+
+input h1
+{
+    color: black;
+    margin: 10px;
+    padding: 10px;
+}
+
+textarea
+{
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    margin: 10px;
+    border: solid black 2px;
+    width: 100%;
+}
+
+textarea::placeholder
+{
+    color: black;
+}
+
+input:focus
+{
+    outline: none;
+}
+
+#textarea:focus
+{
+    outline: none;
+}
+
+#add-button
+{
+    margin: 10px;
+    font-size: 20px;
+    background-color: red;
+    border-radius: 10px;
+    padding: 5px;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+#cancel-button
+{
+    margin: 10px;
+    font-size: 20px;
+    background-color: red;
+    border-radius: 10px;
+    padding: 5px;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
